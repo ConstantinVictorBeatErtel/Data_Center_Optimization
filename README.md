@@ -2,7 +2,7 @@
 
 A decision support tool built with Python and Streamlit to optimize the geographic placement of data centers. This application uses a two-stage Linear Programming (LP) model to balance physical constraints (latency, power capacity) with conflicting objectives (minimizing cost vs. minimizing carbon footprint) while ensuring population coverage.
 
-## 📁 Project Overview
+## Project Overview
 
 As demand for low-latency digital services grows, selecting optimal data center locations becomes a complex multi-objective problem. This dashboard allows users to:
 * Visualize candidate sites across the US.
@@ -86,6 +86,6 @@ The model utilizes the **PuLP** library to solve the facility location problem.
     * **Percentage (Slack):** Recommended. Finds the theoretical max coverage, then optimizes to hit, for example, 95% of that max.
     * **Manual:** Force the model to find a specific number of people (e.g., "Serve 100 Million").
 
-## 📝 License
+## License
 
 This project is open-source and available under the MIT License.
